@@ -70,6 +70,7 @@ topPipeImag=new Image();
     requestAnimationFrame(update);
     setInterval(placePipes,1500);//1.5sec
     document.addEventListener("keyup",moveBird);
+    document.addEventListener("touch",moveBird);
 }
 
 function update(){
